@@ -1,2 +1,2 @@
 # Learning-Javascript 
-# by Balaram Sabat
+**by Balaram Sabat**
