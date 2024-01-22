@@ -140,3 +140,17 @@
 // book.call(childPlane, 900, 'Balu')
 // console.log(childPlane)
 
+// "Bind" Method
+
+// function greet(){
+//     console.log(`Hi welcome ${this.firstName} ${this.lastName}`)
+// }
+// let user = {
+//     firstName :'Balaram',
+//     lastName :'Sabat'
+// }
+
+// let greets = greet.bind(user);
+// greets();
+
+// "Objects/Arrays" how "reference" are passed to variable
