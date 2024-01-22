@@ -5,7 +5,7 @@
 - Data Types and Control Flow
 - Functions
 - Objects
-- DOM
+- DOM - Document Object Model
 - DOM - Forms
 - Array Methods
 - Date

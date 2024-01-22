@@ -166,3 +166,5 @@
 // console.log('Original', arr) 
 // console.log('getValue', getValue)
 
+// Javascript DOM - document object model
+console.log(document)
