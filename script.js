@@ -170,3 +170,17 @@
 // console.log(document)
 // console.log(document.URL)
 
+//Getting HTML element/s using querySelector/All
+// let getElement = document.querySelector('p') //returns 1st element
+// let getElements = document.querySelectorAll('p') // returns all
+// console.log(getElement)
+// console.log(getElements)
+
+//Access element with class 
+//and if we select queryselectorall then all classes will be selected
+// let getElement = document.querySelector('.balaram')
+// console.log(getElement)
+
+//Access elements with id
+// let getElement = document.querySelector('#coders')
+// console.log(getElement)
