@@ -167,4 +167,6 @@
 // console.log('getValue', getValue)
 
 // Javascript DOM - document object model
-console.log(document)
+// console.log(document)
+// console.log(document.URL)
+
