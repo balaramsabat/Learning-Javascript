@@ -184,3 +184,17 @@
 //Access elements with id
 // let getElement = document.querySelector('#coders')
 // console.log(getElement)
+
+//updating and changing content
+//inner text
+//it ignores spaces
+// let heading = document.querySelector('h2');
+// console.log(heading)
+// console.log(heading.innerText)
+// let content = document.querySelector('.content');
+// content.innerText += "<p>Hello welcome</p>"
+
+//inner HTML
+//it does not ignore spaces
+// console.log(heading.innerHTML)
+// content.innerHTML += "<h2> hello welcome </h2>"
