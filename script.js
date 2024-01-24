@@ -210,3 +210,16 @@
 // console.log(link.getAttribute('href'));
 // link.innerText = "Google Maps";
 
+//Adding the style
+// let heading = document.querySelector('h2');
+// heading.style.color = "green"; //we can give css colors starts in #
+// heading.style.background = "yellow";
+
+//parent, children and sibling elements
+// let parentElement = document.querySelector('.content');
+// all children of element
+// console.log(parentElement.children)
+// we can not run forEach method on HTMLcollection so
+//first convert it into array
+// console.log(Array.from(parentElement.children));
+
