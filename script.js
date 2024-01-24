@@ -189,12 +189,24 @@
 //inner text
 //it ignores spaces
 // let heading = document.querySelector('h2');
-// console.log(heading)
-// console.log(heading.innerText)
+// console.log(heading);
+// console.log(heading.innerText);
 // let content = document.querySelector('.content');
-// content.innerText += "<p>Hello welcome</p>"
+// content.innerText += "<p>Hello welcome</p>";
 
 //inner HTML
 //it does not ignore spaces
-// console.log(heading.innerHTML)
-// content.innerHTML += "<h2> hello welcome </h2>"
+// console.log(heading.innerHTML);
+// content.innerHTML += "<h2> hello welcome </h2>";
+
+//getting and setting attribute of element
+// https://www.geeksforgeeks.org/
+// let link = document.querySelector('a');
+// console.log(link)
+// console.log(link.getAttribute('href'));
+
+//set attribute
+// link.setAttribute('href', "https://www.google.com/maps");
+// console.log(link.getAttribute('href'));
+// link.innerText = "Google Maps";
+
