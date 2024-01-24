@@ -223,3 +223,9 @@
 //first convert it into array
 // console.log(Array.from(parentElement.children));
 
+// Event basics (click event)
+// let eventElement = document.querySelector('.clickMe');
+// console.log(eventElement)
+// eventElement.addEventListener('click',function(){
+//     console.log('Clicked Me')
+// })
