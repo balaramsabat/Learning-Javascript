@@ -230,4 +230,4 @@
 //     console.log('Clicked Me')
 // })
 
-
+//Array methods
