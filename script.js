@@ -281,4 +281,12 @@
 // console.log(name.at(3));
 // console.log(name.at(-1));
 
+//map method
+// let salaries = [4000,5000,7000,12000];
+// let newSalaries = salaries.map(salary =>{
+//     let incrementedSalary = salary/2;
+//     return salary + incrementedSalary
+// })
+// console.log("After 50% Increment =",newSalaries);
+
 
