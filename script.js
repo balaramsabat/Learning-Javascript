@@ -308,3 +308,26 @@
 // },0)
 // console.log(sum);
 
+// "Find" method
+//it returns the 'first' element we are looking for
+// let students = [{id:1,name:'Balaram'},{id:2,name:'Sabat'}];
+// let result = students.find(student =>{
+//     return (student.id === 1)
+// }) 
+// console.log(result);
+
+// findIndex method
+// in above find method that returns the object but in this 
+// findIndex method it will give you the index value otherwise it returns -1
+// let students = [{id:1,name:'Balaram'},{id:2,name:'Sabat'}];
+// let result = students.findIndex(student =>{
+//     return (student.id === 2)
+// }) 
+// console.log(result);
+
+// another example
+// let ages = [23,45,13,56];
+// let result = ages.findIndex(age =>{
+//     return age > 30;
+// })
+// console.log(result);
