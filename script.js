@@ -331,3 +331,19 @@
 //     return age > 30;
 // })
 // console.log(result);
+
+//'some' and 'every' method
+// some method returns true if 'any' array element pass the test
+// every method returns true if 'all' array elements pass the test
+// let scores = [54,58,76,89];
+// let result = scores.some(score =>{
+//     return score > 60;
+// })
+// console.log('Some Method', result);
+
+// let grades = [56,87,90,78];
+// let result1 = grades.every(grade =>{
+//     return grade > 50 ;
+// })
+// console.log('Every Method', result1)
+
