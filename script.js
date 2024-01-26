@@ -231,3 +231,53 @@
 // })
 
 //Array methods
+//simple methods
+// let letters = ["a","b","c","d","e"];
+//reverese (Mutate the original Array)
+// let reverse = letters.reverse();
+// console.log(reverse);
+// console.log(letters) //make sure you have original array otherwise 
+// //in this mutating array, the original array will also change
+
+//concatination 
+// let num = [1,2,3,4,5];
+// let concated = num.concat(letters);
+// console.log([...num],[...letters]); //spread operators
+// console.log(concated) //this is not a mutating method.
+// it will not affect the original array.
+
+//join
+// let join = letters.join('-');
+// console.log(join); // this is also non-mutating
+
+//slice methods
+// let num = [3,5,7,4,2];
+// let extractArray = num.slice(2,5);
+// console.log('Extracted Array = ',extractArray);
+// console.log('Original Array = ',num); //this is also non-mutating
+
+//splice method
+// used to add new elememt to array 
+//Array.splice(index,deletedValue,valueToBeAdded)
+//return deleted elements in the form of an Array
+// this is mutated - It will change the original array
+// let num = [1,4,6,7,8,3,4];
+// let updated = num.splice(1,1,1);
+// console.log('Original Array =',num);
+// console.log('Updated Array =',updated);
+
+// at Method
+// let num = [23,43,56,67];
+// console.log(num[1]); // we can do like this but to be more functional
+// console.log(num.at(0));
+
+//getting element of the array
+// console.log(num[num.length-1]);
+// console.log(num.slice(-1)[0]);
+// console.log(num.at(-2));
+
+//at method can work on strings
+// let name = 'Balaram';
+// console.log(name.at(3));
+// console.log(name.at(-1));
+
