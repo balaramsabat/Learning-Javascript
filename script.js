@@ -289,4 +289,22 @@
 // })
 // console.log("After 50% Increment =",newSalaries);
 
+//filter method
+// let gifts = ['ring','watch','teddy','ring','watch','phone'];
+// // now if you filter 'watch' and 'ring'
+// let filterArray = gifts.filter(gift => {
+//     if (gift == 'watch' || gift == 'ring'){
+//     return(gift)
+//     }
+// })
+// console.log(filterArray);
+
+// reduce method
+// Array.reduce(function(total,currentValue),initialValue)
+// sum of elements using reduce method
+// let num = [3,5,7,2,4,5,7];
+// let sum = num.reduce(function(total,currentValue){
+//     return total + currentValue;
+// },0)
+// console.log(sum);
 
