@@ -413,3 +413,35 @@
 // console.log('Every Method', result1)
 
 // Flat Method
+// let arr = [1,2,3,[4,5,6,[7,8,9]]];
+// console.log('Before flat',arr);
+// let result = arr.flat();
+// console.log(result); // it will flat by default one level i.e. depth vale 1 
+// let result1 = arr.flat(2);
+// console.log(result1); // this is a  non-mutating method
+
+// flatMap Method
+// it is the combination of map() and flat() method
+let cart = [{
+    name : 'Mobile',
+    qty : 3,
+    price : 20000,
+},
+{
+    name: 'Laptop',
+    qty : 1,
+    price : 65000,
+}];
+let newCart = cart.flatMap(item =>{
+    if (item.name === 'Mobile'){
+        return [item,{
+            name : 'Screen Guard',
+            qty : 3,
+            price :0
+        }]
+    } else {
+        return [item]
+    }
+}) 
+console.log('Old cart',cart);
+console.log('New Cart', newCart);
