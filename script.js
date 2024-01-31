@@ -451,6 +451,21 @@
 // console.log(letters.sort());
 
 // for number 
-// let nums = [-1, -33, 44, 23,-8];
+let nums = [-1, -33, 44, 23,-8];
 // console.log(nums.sort()) // unexpected result
 
+// for sorting numbers 
+// nums.sort((a,b)=>{
+//     if (a<b) {
+//         return -1 //any num less than 1
+//     }
+//     if (a>b) {
+//         return 1 // anu mun greater than 1
+//     }
+// })
+// console.log(nums)
+// // or
+// nums.sort((a,b)=>{
+//     return a-b;
+// })
+// console.log('Sorted',nums);
