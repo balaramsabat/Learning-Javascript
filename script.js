@@ -451,7 +451,7 @@
 // console.log(letters.sort());
 
 // for number 
-let nums = [-1, -33, 44, 23,-8];
+// let nums = [-1, -33, 44, 23,-8];
 // console.log(nums.sort()) // unexpected result
 
 // for sorting numbers 
@@ -469,3 +469,10 @@ let nums = [-1, -33, 44, 23,-8];
 //     return a-b;
 // })
 // console.log('Sorted',nums);
+
+// for ascending it is ok but for the dscending the array
+// nums.sort((a,b)=>{
+//     return b-a;
+// })
+// console.log('Dscending sorted', nums);
+
