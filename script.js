@@ -422,26 +422,35 @@
 
 // flatMap Method
 // it is the combination of map() and flat() method
-let cart = [{
-    name : 'Mobile',
-    qty : 3,
-    price : 20000,
-},
-{
-    name: 'Laptop',
-    qty : 1,
-    price : 65000,
-}];
-let newCart = cart.flatMap(item =>{
-    if (item.name === 'Mobile'){
-        return [item,{
-            name : 'Screen Guard',
-            qty : 3,
-            price :0
-        }]
-    } else {
-        return [item]
-    }
-}) 
-console.log('Old cart',cart);
-console.log('New Cart', newCart);
+// let cart = [{
+//     name : 'Mobile',
+//     qty : 3,
+//     price : 20000,
+// },
+// {
+//     name: 'Laptop',
+//     qty : 1,
+//     price : 65000,
+// }];
+// let newCart = cart.flatMap(item =>{
+//     if (item.name === 'Mobile'){
+//         return [item,{
+//             name : 'Screen Guard',
+//             qty : 3,
+//             price :0
+//         }]
+//     } else {
+//         return [item]
+//     }
+// }) 
+// console.log('Old cart',cart);
+// console.log('New Cart', newCart);
+
+// sorting array using  sort method
+// let letters = ['d','b','c','a']
+// console.log(letters.sort());
+
+// for number 
+// let nums = [-1, -33, 44, 23,-8];
+// console.log(nums.sort()) // unexpected result
+
