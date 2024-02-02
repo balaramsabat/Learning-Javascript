@@ -447,8 +447,8 @@
 // console.log('New Cart', newCart);
 
 // sorting array using  sort method
-// let letters = ['d','b','c','a']
-// console.log(letters.sort());
+let letters = ['d','b','c','a']
+console.log('Sorted Letters', letters.sort());
 
 // for number 
 // let nums = [-1, -33, 44, 23,-8];
