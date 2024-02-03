@@ -14,5 +14,5 @@
 - OOPs
 - Async JS and ES6
 
-For practice purpose please go through the **script.js** file. There you find topic-wise all codes.
-<p>If you have doubt on something please reach out to me.</p>
+For practice purpose please go through the **script.js** file. There you will find topic-wise all codes.
+<p>If you have doubt on something, please reach out to me.</p>
