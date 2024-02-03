@@ -559,3 +559,22 @@
 
 // // romove item
 // localStorage.removeItem("age")
+
+// how to store complex data structure like Array of objects
+//Ultimately in local storage data store in string formats
+
+// let vehicles = [
+//     {company:'Honda',model:'2020'},
+//     {company:'Tata',model:'2021'}
+// ]
+// console.log(vehicles);
+// let stringOfVehicle = JSON.stringify(vehicles);
+// console.log(stringOfVehicle);
+
+// localStorage.setItem('vehicles',stringOfVehicle)
+// console.log(localStorage)
+
+// //Get stored item in object format
+// let storedData = localStorage.getItem('vehicles');
+// let objectFormat = JSON.parse(storedData);
+// console.log(objectFormat)
