@@ -522,6 +522,7 @@
 // //like this we can calculate hour,minute etc.
 
 // *********DIGITAL Clock***************
+// to run this uncomment- index.html(div button part & style part in body)
 // let hourHand = document.querySelector('.hour');
 // let minHand = document.querySelector('.minute');
 // let secHand = document.querySelector('.second');
@@ -536,3 +537,25 @@
 // }
 // setInterval(ticking,1000); // 1000ms = 1 sec to show
 
+//***********Local Storage*************
+// store and retrive data from local storage is an API provided 
+//by browser to store data inside browser
+// console.log(window.localStorage);
+
+//Local Storage
+// set item, get item, update item
+
+// set item in local storage
+// localStorage.setItem('passion',"programming");
+// localStorage.setItem('age',24);
+// console.log(localStorage);
+
+// //get item from local storage
+// console.log(localStorage.getItem('passion'));
+
+// //update
+// localStorage.setItem('age',26);
+// console.log(localStorage)
+
+// // romove item
+// localStorage.removeItem("age")
