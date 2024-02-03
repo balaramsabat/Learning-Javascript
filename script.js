@@ -476,4 +476,15 @@
 // })
 // console.log('Dscending sorted', nums);
 
+//Chain of  Methods
+// let num = [1,2,3,4,5,6,7];
+// let result = num.slice(0,3).splice(2,1,8);
+// console.log('Final Array', result)
+// console.log(num) //it's not changed because of non-mutable 
+//property of slice. 
+// if we do splice first then it will change.
+// let result = num.splice(2,1,8).slice(0,3);
+// console.log('Final Array', result)
+// console.log(num) ;
+
 //******************** Date and Time ********************
