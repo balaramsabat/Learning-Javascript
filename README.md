@@ -9,7 +9,7 @@
 - DOM - Document Object Model
 - DOM - Forms
 - Array Methods
-- Date
+- Date and Time
 - Local Storage
 - OOPs
 - Async JS and ES6

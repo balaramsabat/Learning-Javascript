@@ -1,4 +1,4 @@
-// Data types and control flows
+// ********************Data types and control flows********************
 // var score = 34;
 // var score = 56; //re-declare
 // let score = 54; // generally we use
@@ -111,7 +111,7 @@
 // let invitation = name => (`I have invited my friend ${name} to this event`)
 // console.log(invitation('koko'))
 
-// //OBJECTS in Javascript.
+// //********************OBJECTS in Javascript.********************
 // let car = {
 //     color: 'black',
 //     model: '2024',
@@ -231,7 +231,7 @@
 // console.log('Original', arr) 
 // console.log('getValue', getValue)
 
-// Javascript DOM - document object model
+// ***********Javascript DOM - document object model********************
 // console.log(document)
 // console.log(document.URL)
 
@@ -295,7 +295,7 @@
 //     console.log('Clicked Me')
 // })
 
-//Array methods
+//********************Array methods********************
 //simple methods
 // let letters = ["a","b","c","d","e"];
 //reverese (Mutate the original Array)
@@ -476,3 +476,4 @@
 // })
 // console.log('Dscending sorted', nums);
 
+//******************** Date and Time ********************
