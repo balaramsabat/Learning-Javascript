@@ -488,3 +488,51 @@
 // console.log(num) ;
 
 //******************** Date and Time ********************
+//Date object always carry both 'Date' and 'Time'
+//using date method
+// let currentDate = new Date(); // give always in 4 letters format
+// console.log(currentDate); 
+
+//using timeStamp (integer number represents in 'ms' from 1-1-1970)
+// let currentDate = new Date(0); // 0 is time in ms 
+// 1 day = 24 * 60 * 60 = 86400000ms
+// console.log(currentDate);
+// let currentDate = new Date(86400000);
+// console.log(currentDate); // it will change to next day Jan 2
+
+// to get time in ms
+// let currentDate = new Date().getTime()
+// console.log(currentDate);// 1706962117512 = total time in ms from 1-1-1970
+
+// using date method you can give day,month,year,hour,minuts,ms
+// let currentDate = new Date(15,7,2,11,51,32);
+// console.log(currentDate);
+
+// Advance methods
+// let completeDateAndTime = new Date();
+// console.log(completeDateAndTime);
+// // Get Full year
+// console.log(completeDateAndTime.getFullYear());
+// //get month
+// console.log(completeDateAndTime.getMonth()); // 0 to 11
+// //get day
+// console.log(completeDateAndTime.getDay()); // 0-sun to 6-sat
+// //getDate
+// console.log(completeDateAndTime.getDate());
+// //like this we can calculate hour,minute etc.
+
+// *********DIGITAL Clock***************
+// let hourHand = document.querySelector('.hour');
+// let minHand = document.querySelector('.minute');
+// let secHand = document.querySelector('.second');
+// let ticking = function(){
+//     let currentDate = new Date();
+//     let getHour = currentDate.getHours();
+//     let getMin = currentDate.getMinutes();
+//     let getSec = currentDate.getSeconds();
+//     hourHand.textContent = getHour;
+//     minHand.textContent = getMin;
+//     secHand.textContent = getSec;
+// }
+// setInterval(ticking,1000); // 1000ms = 1 sec to show
+
