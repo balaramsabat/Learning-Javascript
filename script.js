@@ -605,13 +605,28 @@
 //     console.log('This is a start engine method.')
 // }
 // // we can also set "properties" to prototype - This is called
-// Car.prototype.company = "Honda" // prototype inheritance 
+// Car.prototype.company = "Honda" // prototype inheritence 
 
 // console.log(Car.prototype)
 // let instanceOfCar = new Car('yellow',2023);
 // let instance = new Car('Blue',2020)
 // instanceOfCar.startEngine()
 // //in the below cosole, 
-// //we will get the same prototype from which the instance is made.
+// //we will get the same prototype from which the instence is made.
 // console.log(instanceOfCar.__proto__)
 //i.e. same as - console.log(Car.prototype)
+
+// ES6 Classes (They still implement prototypal inheritence behind the scene)
+// class Car {
+//     constructor(color,model){   //special function constructor
+//         this.color = color;
+//         this.model = model
+//     }
+//     starEngine (){
+//         console.log('This is startEngine method of car class')
+//     }
+// }
+// let honda = new Car('Red',2022)
+// console.log(honda.__proto__.isPrototypeOf(honda));
+// honda.starEngine();
+
