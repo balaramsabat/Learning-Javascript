@@ -669,7 +669,7 @@
 //             }
         
 //         }
-// //static method part
+// //static method (can never inherited to all objects)
 // Car.breakMethod = function(){
 //     console.log('This is a break method');
 // }
@@ -677,5 +677,36 @@
 //     honda.startEngine();
 //    // honda.breakMethod(); //it gives an error because it's not a function
 // Car.breakMethod();
+
+// Class Inheritence
+//Parent class
+// class Car {
+//     constructor(color,model){   //special function constructor
+//         this.color = color;
+//         this.model = model
+//     }
+//     startEngine (){
+//         console.log('This is startEngine method of car class')
+//     }
+// }
+// //child class
+// class Bike extends Car {
+// // add some new properties and 'method' as well
+//     constructor(car,model,engineCapacity){
+//     super(car,model)
+//     this.engineCapacity = engineCapacity
+//     }
+//     bikeMethod(){
+//         console.log('This is a method for bike class')
+//     }
+// }
+// let newBike = new Bike('Black',2023,'150cc')
+// let bike2 = new Bike('Brown',2022,'125cc')
+// console.log(newBike,bike2)
+
+// let honda = new Car('Red',2022)
+// console.log(honda)
+
+
 
 
