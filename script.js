@@ -537,7 +537,7 @@
 // }
 // setInterval(ticking,1000); // 1000ms = 1 sec to show
 
-//***********Local Storage*************
+//********************Local Storage********************
 // store and retrive data from local storage is an API provided 
 //by browser to store data inside browser
 // console.log(window.localStorage);
@@ -578,3 +578,40 @@
 // let storedData = localStorage.getItem('vehicles');
 // let objectFormat = JSON.parse(storedData);
 // console.log(objectFormat)
+
+//************* OBJECT oriented Programming JS*****************
+// constructor function and "new" operator
+
+// let Car = function(color,model){
+//     //instance properties
+//     this.color = color;
+//     this.model = model
+// }
+// let instanceOfCar = new Car('yellow',2023);
+// let instance = new Car('Blue',2020)
+// console.log(instanceOfCar, instance);
+// console.log(instance instanceof Car)
+
+// Prototype
+// Each object created by "constructor" function have an access 
+//to all "methods" present inside that "constructor" prototype
+// let Car = function(color,model){
+//     //instance properties
+//     this.color = color;
+//     this.model = model
+// }
+// //method
+// Car.prototype.startEngine = function (){
+//     console.log('This is a start engine method.')
+// }
+// // we can also set "properties" to prototype - This is called
+// Car.prototype.company = "Honda" // prototype inheritance 
+
+// console.log(Car.prototype)
+// let instanceOfCar = new Car('yellow',2023);
+// let instance = new Car('Blue',2020)
+// instanceOfCar.startEngine()
+// //in the below cosole, 
+// //we will get the same prototype from which the instance is made.
+// console.log(instanceOfCar.__proto__)
+
