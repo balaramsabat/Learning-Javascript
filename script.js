@@ -614,4 +614,4 @@
 // //in the below cosole, 
 // //we will get the same prototype from which the instance is made.
 // console.log(instanceOfCar.__proto__)
-
+//i.e. same as - console.log(Car.prototype)
