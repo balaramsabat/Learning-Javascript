@@ -636,25 +636,46 @@
 
 // setters and getters
 //it allows you to define object Accessors(Computed Properties)
-class Car {
-        constructor(color,model){   //special function constructor
-            this.color = color;
-            this.model = model
-        }
-        startEngine (){
-            console.log('This is startEngine method of car class.')
-        }
-        get _startEngine(){
-            console.log('This is start engine using get.')
-        }
-        set changeColor (color){
-            console.log(this.color = color)
-        }
-    }
-let honda = new Car('Red',2022);
-honda.startEngine(); // accessing as function
-honda._startEngine; // accesing as property
-honda.changeColor = 'Blue'; //set as property 
-console.log(honda); //color has changed now
+// class Car {
+//         constructor(color,model){   //special function constructor
+//             this.color = color;
+//             this.model = model
+//         }
+//         startEngine (){
+//             console.log('This is startEngine method of car class.')
+//         }
+//         get _startEngine(){
+//             console.log('This is start engine using get.')
+//         }
+//         set changeColor (color){
+//             console.log(this.color = color)
+//         }
+//     }
+// let honda = new Car('Red',2022);
+// honda.startEngine(); // accessing as function
+// honda._startEngine; // accesing as property
+// honda.changeColor = 'Blue'; //set as property 
+// console.log(honda); //color has changed now
+
+
+// Static methods
+// class Car {
+//             constructor(color,model){   //special function constructor
+//                 this.color = color;
+//                 this.model = model
+//             }
+//             startEngine (){
+//                 console.log('This is startEngine method of car class.')
+//             }
+        
+//         }
+// //static method part
+// Car.breakMethod = function(){
+//     console.log('This is a break method');
+// }
+//     let honda = new Car('Red',2022);
+//     honda.startEngine();
+//    // honda.breakMethod(); //it gives an error because it's not a function
+// Car.breakMethod();
 
 
