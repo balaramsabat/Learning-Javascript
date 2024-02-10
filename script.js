@@ -799,6 +799,30 @@
 // })
 // console.log(3)
 // console.log(4)
-//It is not mandatory to bring the JSO file through network we can also
-// read the json file (if it is in your project file) asynchronously
+//It is not mandatory to bring the JSON file through network we can also
+//read the json file(if it's in ur project or it's alocal file)asynchronously
+
+//Promise
+// let getSomething = ()=>{
+//     return new Promise((resolve,reject)=>{
+//         resolve("Some Data"); //Dummy
+//         // reject("Some Error")
+//     })
+// }
+// getSomething().then((data)=>{
+//     console.log(data)
+// })
+
+// let getSomething = ()=>{
+//     return new Promise((resolve,reject)=>{
+//         // resolve("Some Data"); //Dummy
+//         reject("Some Error")
+//     })
+// }
+// getSomething().then((data)=>{
+//     console.log(data)
+// }).catch((error)=>{
+//     console.log(error)
+// })
+
 
