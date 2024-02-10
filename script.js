@@ -739,3 +739,66 @@
 //     }
 // // 4 - done    
 // })
+
+//CallBack Function
+// let todos = (callback)=> {
+//     let request = new XMLHttpRequest();
+//     request.addEventListener('readystatechange', ()=>{
+//             if (request.readyState === 4 && request.status == 200){
+//               callback(undefined,request.responseText)   
+//             }  else if (request.readyState === 4) {
+//                 callback("Data could not fetch",undefined)
+//             }
+//         })
+// //Set up the request
+// request.open('Get', "https://jsonplaceholder.typicode.com/todos");
+// //sending request
+// request.send();
+// }
+
+// console.log(1)
+// console.log(2)
+// //Async code example
+// todos((error,Data)=>{      // will take some time
+//     if(error){
+//         console.log(error)
+//     }else{
+//         console.log(Data)
+//     }
+// })
+// console.log(3)
+// console.log(4)
+
+//JSON Data - 
+//Earler it was coming as string now I t will come as Array
+// let todos = (callback)=> {
+//     let request = new XMLHttpRequest();
+//     request.addEventListener('readystatechange', ()=>{
+//             if (request.readyState === 4 && request.status == 200){
+//                 let data = JSON.parse(request.responseText)
+//               callback(undefined,data)  // regular js object 
+//             }  else if (request.readyState === 4) {
+//                 callback("Data could not fetch",undefined)
+//             }
+//         })
+// //Set up the request
+// request.open('Get', "https://jsonplaceholder.typicode.com/todos");
+// //sending request
+// request.send();
+// }
+
+// console.log(1)
+// console.log(2)
+// //Async code example
+// todos((error,Data)=>{      // will take some time
+//     if(error){
+//         console.log(error)
+//     }else{
+//         console.log(Data)
+//     }
+// })
+// console.log(3)
+// console.log(4)
+//It is not mandatory to bring the JSO file through network we can also
+// read the json file (if it is in your project file) asynchronously
+
