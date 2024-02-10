@@ -825,4 +825,11 @@
 //     console.log(error)
 // })
 
+// Fetch API
+// it will give an error before fetch create one data.json file locally
+// fetch("data json").then((response)=>{  
+//     console.log("Promise Resolved",response)
+// }).catch((error)=>{
+//     console.log(error)
+// })
 
