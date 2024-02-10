@@ -10,9 +10,9 @@
 
 //7 data types
 // numbers 1,2,3,4...
-//string "I am Balarm"
-// Boolean true/false
-// null intentionally absence of value
+//string - "I am Balarm"
+// Boolean - true/false
+// null - intentionally absence of value
 // let score = null;
 // score = 12;
 // console.log(score);
@@ -707,6 +707,20 @@
 // let honda = new Car('Red',2022)
 // console.log(honda)
 
+//******************* Asynchronous JS *****************************
 
+// console.log('b')
+// console.log('a')
+// console.log('l')
+// // Async Code
+// setTimeout(()=> {
+//     console.log('m')
+// }, 5000) //after 5 sec
+// console.log('a')
+// console.log('r')
+// console.log('a')
 
+// Making HTTP Request (Example)
+// let request = new XMLHttpRequest();
+// console.log(request);
 
