@@ -722,7 +722,20 @@
 
 // Making HTTP Request (Example)
 // let request = new XMLHttpRequest();
-// console.log(request);
+// // console.log(request);
 
+// //Set up the request
+// request.open('Get', "https://jsonplaceholder.typicode.com/todos");
+// //using this link for practice to get JSON data in response
 
+// //sending request
+// request.send();
 
+// //to see in console
+// request.addEventListener('readystatechange', ()=>{
+//     // console.log(request,request.readyState)
+//     if (request.readyState === 4){
+//         console.log(request.responseText)
+//     }
+// // 4 - done    
+// })
