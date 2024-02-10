@@ -829,6 +829,7 @@
 // it will give an error before fetch create one data.json file locally
 // fetch("data json").then((response)=>{  
 //     console.log("Promise Resolved",response)
+//     return.respone.json()  //returning promise
 // }).catch((error)=>{
 //     console.log(error)
 // })
