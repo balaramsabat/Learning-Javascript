@@ -80,4 +80,4 @@ else{
 
 
 
-<p>If you have any doubt on something, please reach out to me.</p>
+<p>If you have any doubts on something, please reach out to me.</p>
