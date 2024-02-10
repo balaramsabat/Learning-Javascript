@@ -830,6 +830,8 @@
 // fetch("data json").then((response)=>{  
 //     console.log("Promise Resolved",response)
 //     return.respone.json()  //returning promise
+// }).then((data)=>{
+//     console.log(data)
 // }).catch((error)=>{
 //     console.log(error)
 // })
