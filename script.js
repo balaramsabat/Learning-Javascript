@@ -836,4 +836,22 @@
 //     console.log(error)
 // })
 
-//
+// *********************ES6 - EcmaScript6********************
+//Destructuring the Arrays
+// let hotel = {
+//     name:'hottell',
+//     location: 'Street No xyz Delhi',
+//     categories:['Chinease','Italin','English'],
+// }
+// //example
+// let items = [2,3,5,6];
+//without destructuring
+// let x = items[0];
+// let y = items[1];
+// let z = items[2];
+// let p = items[3];
+// console.log(x,y,z,p)
+
+//with destructuring 
+// let [x,y,z,p] = items;
+// console.log(x,y,z,p)
