@@ -855,3 +855,12 @@
 //with destructuring 
 // let [x,y,z,p] = items;
 // console.log(x,y,z,p)
+
+// spread operator (...) - It is present RHS of =
+// let nums = [2,3,4,5,6,7];
+// let newArray = [1, ...nums];
+// console.log(newArray);
+
+// // REST operator (...) - present in LHS of =
+// let [a,b, ...others] = nums;
+// console.log(others)
