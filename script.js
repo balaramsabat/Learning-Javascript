@@ -864,3 +864,21 @@
 // // REST operator (...) - present in LHS of =
 // let [a,b, ...others] = nums;
 // console.log(others)
+
+// For In and For of loops 
+// For of
+// let myName = 'Balaram';
+// for (let char of myName){
+//     console.log('My characters ' + char)
+// }
+
+// let myName = [1,2,3,4,5,6,7,8,9];
+// for (let num of myName){
+//     console.log('My numbers ' + num)
+// }
+
+//For In
+// let nums = {a:1,b:2,c:3}
+// for(let key in nums){
+//     console.log(`the keys are:  ${key}`)
+// }
