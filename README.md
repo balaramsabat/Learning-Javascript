@@ -17,4 +17,3 @@
 To practice the code for each topic please go to the **script.js** file.
 <p>If you have any doubt on something, please reach out to me.</p>
 
-😃😉😄
