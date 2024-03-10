@@ -1,5 +1,5 @@
 # Learning-Javascript 
-**by Balaram Sabat**😎
+**by Balaram Sabat**
 
 ---
 **Topics** covered in Javascript :-
